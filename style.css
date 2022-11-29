@@ -2,6 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0%;
 }
+/************ first part ************/
 .big{
     display: flex;
     background-image: url(images/top-banner.png);
@@ -17,6 +18,7 @@ h1 {
 .half-weight{
 width: 50%;
 padding-left: 5%;
+
 }
 .half-weight img{
 width: 70%;
@@ -28,17 +30,15 @@ width: 70%;
     background-image: linear-gradient(orange, rgb(248, 56, 22));
     
 }
-.images{
-    width: 50%;
-    padding-top: 15%;
-    padding-left: 5%;
-    padding-bottom: 10%;
-}
-.big-dream{
-    width: 50%;
-    padding-right: 5%;
-    padding-top: 10%;
-}
+
+
+
+
+/******* second part ******/
+
+
+
+
 .display{
     display: flex;
     background-image: url(images/dream-bg.png);
@@ -46,9 +46,60 @@ width: 70%;
     background-position: right;
     
 }
+.big-dream{
+    width: 50%;
+    padding-right: 5%;
+    padding-top: 10%;
+}
+.images{
+    width: 50%;
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-bottom: 10%;
+}
 .big-button{
     text-decoration: none;
     padding: 12px 30px;
     border-radius: 5px;
     background-image: linear-gradient(rgb(232, 136, 40), rgb(252, 35, 6));
+}
+
+/******* third part ********/
+
+
+.two-boxes{
+    display: flex;
+    width: 100%;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.boxes{
+    width: 40%;
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 5%; 
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 5px;
+    border-radius: 10px;
+
+}
+
+
+h2{
+    font-size: 38px;
+}
+#experience{
+    border-image: linear-gradient (blue, cyan);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+
+/******* footer part ******/
+footer p {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+
 }
