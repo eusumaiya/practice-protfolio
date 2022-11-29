@@ -22,6 +22,7 @@ padding-left: 5%;
 }
 .half-weight img{
 width: 70%;
+padding-top: 30px;
 }
 .button{
     text-decoration: none;
